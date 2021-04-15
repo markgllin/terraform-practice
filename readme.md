@@ -2,7 +2,7 @@
 This repo uses Terraform to deploy an infrastructure to AWS with the following resources:
 
 - An ECS cluster with related service and task definitions containing a [Hello World container](https://github.com/markgllin/docker-python-flask-helloworld)
-- An autoscaling group with a CloudWatch alert attached that triggers/scales based on cpu usage* (see note in below)
+- An autoscaling group with a CloudWatch alert attached that triggers/scales based on cpu usage (see [Problems](https://github.com/markgllin/terraform-practice#problems) below)
 - CloudWatch alarm that alerts via email
 - A loadbalancer with a self-signed cert attached. Webpage is served over HTTPs.
 - (Limited) configurability, i.e. environment specific clusters
