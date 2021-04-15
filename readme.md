@@ -85,6 +85,7 @@ Aside from addressing the above issues, additional things I plan to do:
 - pull access logs and container logs and ship them to Elastic Stack so that they can be reviewed, searchable, and aid in debugging issues
 - add more alerts to notify on issues like abnormal resource usage, spikes in traffic or HTTP 5XX errors to meet SLOs
 - switch to Fargate to minimize overhead with maintaining EC2 instances
+- add infrastructure tests with [Terratest](https://terratest.gruntwork.io/)
 
 # Resources
 - [Terraform docs](https://www.terraform.io/docs/)
