@@ -63,7 +63,7 @@ Outputs:
 instance_ip_addr = "ecs-cluster-qa-lb-914436477.us-west-1.elb.amazonaws.com"
 ```
 
-`instance_ip_addr` corresponds to the A record of the application loadbalancer. To view the webserver, paste the value into a browser. Be sure to add `https://` as there is not automatic redirection. If using the default container, the page can also be refreshed and the server name should be updated each time to indicate loadbalancing is working.
+`instance_ip_addr` corresponds to the A record of the application loadbalancer. To view the webserver, paste the value into a browser. Be sure to add `https://` as there is no automatic redirection. If using the default container, the page can also be refreshed and the server name should be updated each time to indicate loadbalancing is working.
 
 # CI/CD
 Currently, GitHub Actions is being used in conjunction with Terraform Cloud to deploy the infrastructure on merge to `main`. The workflow is as follows:
