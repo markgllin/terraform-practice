@@ -13,7 +13,7 @@ resource "tls_self_signed_cert" "cert" {
     organization = "Mark Lin Inc."
   }
 
-  validity_period_hours = 12
+  validity_period_hours = 168
 
   allowed_uses = [
     "key_encipherment",
